@@ -34,3 +34,10 @@ img {
 button {
   cursor: pointer;
 }
+
+.container {
+  width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
