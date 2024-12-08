@@ -1,0 +1,50 @@
+.hero {
+    padding: 18px 0 69px;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.hero-flex-first {
+    flex-basis: 511px;
+    padding: 141px 0 150px;
+}
+.hero-flex-first-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #2c2c2c;
+    margin-bottom: 28px;
+}
+.hero-flex-first-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2c2c2c;
+    margin-bottom: 40px;
+}
+.hero-flex-first-btn {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #2c2c2c;
+    font-family: inherit;
+    width: 98px;
+    height: 32px;
+    text-align: center;
+    background-color: #bbf330;
+    border-radius: 30px;
+    border: none;
+}
+
+.hero-flex-first-btn:hover,
+.hero-flex-first-btn:focus {
+    background-color: #ffe450;
+}
+
+.hero-flex-second {
+    flex-basis: 572px;
+    border: 22px solid #ffe550;
+    border-radius: 50%;
+}
