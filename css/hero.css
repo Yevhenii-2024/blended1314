@@ -37,10 +37,14 @@
     border-radius: 30px;
     border: none;
 }
+
+.hero-flex-first-btn:hover,
+.hero-flex-first-btn:focus {
+    background-color: #ffe450;
+}
+
 .hero-flex-second {
     flex-basis: 572px;
-    border: 22px solid yellow;
+    border: 22px solid #ffe550;
     border-radius: 50%;
-}
-.hero-flex-second-image {
 }
