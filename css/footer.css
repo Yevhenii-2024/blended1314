@@ -1,0 +1,154 @@
+.footer-container {
+  width: 1280px;
+  height: auto;
+  flex-shrink: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #fefefe;
+  box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.1);
+  background-image: url(../images/footer-bg-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-main {
+  min-width: 1280px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-icon {
+  margin-left: 21px;
+  width: 66px;
+  height: 52px;
+  margin-right: 143px;
+}
+.nav-list {
+  display: flex;
+  padding-top: 18px;
+  width: 319px;
+  height: 16px;
+  flex-shrink: 0;
+  gap: 28px;
+}
+
+.form-wrapper {
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+.form-text {
+  color: #2c2c2c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.subscribe-input {
+  display: inline-flex;
+  height: 42px;
+  padding: 12px 61.5px 12px 12px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 0.854px solid #ffe550;
+  background: #fefefe;
+}
+
+.subscribe-input::placeholder {
+  color: #505050;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.subscribe-button {
+  display: inline-flex;
+  padding: 11px 22px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 0.854px solid #7eb101;
+  background: #fff;
+}
+.subscribe-consent {
+  color: #2c2c2c;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.consent-link {
+  color: #7eb101;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.footer-legals {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.legals-nav {
+  display: flex;
+  justify-content: start;
+}
+
+.legals-list {
+  margin-top: 129px;
+  margin-left: 16px;
+  display: flex;
+  gap: 20px;
+}
+
+.legals-link {
+  padding: 0px 19px;
+  color: #7eb101;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+.legals-text {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: 16px;
+  display: inline-block;
+  color: #2c2c2c;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
