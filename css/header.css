@@ -35,7 +35,7 @@
   padding: 20px 0;
 }
 .button:hover,
-button:focus {
+.button:focus {
   border-radius: 30px;
   padding: 6px 17px;
   min-width: 98px;
