@@ -3,13 +3,55 @@
     margin-top: 176px;
 }
 
+.form-subscribe {
+    display: flex;
+    margin-top: 24px;
+}
+
 .input {
     border: 0.85px solid #ffe550;
     border-radius: 30px;
     padding: 10px;
     width: 395px;
     height: 42px;
+    margin-right: 32px;
+    background-color: transparent;
 }
+
+.input:hover,
+.input:focus {
+    border-color: #ffe450;
+}
+
+.input::placeholder {
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: #505050;
+}
+
+.input:not(:placeholder-shown):invalid {
+    border-color: red;
+  }
+
+  .input:not(:placeholder-shown):valid {
+    border-color: green;
+  }
+
+  .invalid {
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 4px;
+    display: none;
+  }
+
+  .invalid {
+    color: red;
+  }
+
+  .input:not(:placeholder-shown):invalid ~ .invalid {
+    display: block;
+  }
 
 .section-subscribe {
 font-family: "Roboto", sans-serif;
