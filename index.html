@@ -220,31 +220,55 @@
       </section>
     </main>
 
-    <footer>
-      <img src="./images/Vector.png" alt="logo" />
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Service</li>
-        <li>Menu</li>
-        <li>Contact</li>
-      </ul>
-      <p>Subscribe</p>
-
-      <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="Enter your email"
-      />
-      <button type="button">Subscribe</button>
-      <p>By subscribing you agree to with our <a href="">Privacy Policy</a></p>
-      <ul>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Terms of Service</a></li>
-        <li><a href="">Cookies Settings</a></li>
-      </ul>
-      <p>2022 FoodSta. All right reserved.</p>
-    </footer>
-  </body>
+   <footer class="page-footer">
+        <div class="footer-container">
+          <div class="footer-main">
+            <div class="footer-nav">
+              <img class="footer-icon" src="./images/Vector.png" alt="logo" />
+              <ul class="nav-list">
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./index.html">About</a></li>
+                <li class="nav-item"><a href="./index.html">Service</a></li>
+                <li class="nav-item"><a href="./index.html">Menu</a></li>
+                <li class="nav-item"><a href="./index.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="form-wrapper">
+            <p class="form-text">Subscribe</p>
+            <form class="footer-subscribe-form">
+              <label class="subscribe-label" for="email"></label>
+              <input
+                class="subscribe-input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+          
+              <button class="subscribe-button" type="submit">Subscribe</button>
+              <p class="subscribe-consent">
+                By subscribing you agree to with our <a class="consent-link" href="">Privacy Policy</a>
+              </p>
+            </div>
+            </form>
+          </div>
+          <div class="footer-legals">
+            <div class="legals-nav">
+              <ul class="legals-list">
+                <li class="legals-item">
+                  <a class="legals-link" href="">Terms of Service</a>
+                </li>
+                <li class="legals-item">
+                  <a class="legals-link" href="">Privacy Policy</a>
+                </li>
+                <li class="legals-item">
+                  <a class="legals-link" href="">Cookies Settings</a>
+                </li>
+              </ul>
+            </div>
+            <p class="legals-text">2022 FoodSta. All right reserved.</p>
+          </div>
+        </div>
+   </footer>
+  </body>      
 </html>
