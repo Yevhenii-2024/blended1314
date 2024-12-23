@@ -206,8 +206,14 @@
               Order now and receive 10% off your first meal with Enjoy Your
               Favorite Food From Anywhere.
             </p>
-            <input class="input" type="Enter your email" />
-            <button class="button-subscribe">Subscribe</button>
+            <form class="form-subscribe"> 
+              <div class="input-invalid"> 
+            <label class="label-subscribe" for="subscribe"></label> 
+            <input id="subscribe" class="input" type="email" name="subscribe" placeholder="Enter your email"  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required/> 
+            <p class="invalid">Not a valid email address (example@email.com)</p> 
+          </div> 
+            <button class="button-subscribe">Subscribe</button> 
+          </form>
           </div>
           <img
             class="img"
