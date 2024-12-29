@@ -1,5 +1,5 @@
 .footer-container {
-  width: 1280px;
+  min-width: 1280px;
   height: auto;
   flex-shrink: 0;
   padding-top: 100px;
@@ -13,11 +13,12 @@
 }
 
 .footer-main {
-  min-width: 1280px;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
 }
+
 .footer-nav {
   display: flex;
   flex-direction: row;
@@ -29,6 +30,7 @@
   height: 52px;
   margin-right: 143px;
 }
+
 .nav-list {
   display: flex;
   padding-top: 18px;
@@ -45,9 +47,7 @@
 
 .form-text {
   color: #2c2c2c;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   margin: 0;
@@ -56,10 +56,12 @@
 
 .subscribe-input {
   display: inline-flex;
+  width: 279px;
   height: 42px;
   padding: 12px 61.5px 12px 12px;
   align-items: center;
   flex-shrink: 0;
+  outline: transparent;
   border-radius: 30px;
   border: 0.854px solid #ffe550;
   background: #fefefe;
@@ -67,28 +69,42 @@
 
 .subscribe-input::placeholder {
   color: #505050;
-  font-family: Roboto;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
+}
+
+.subscribe-input:focus {
+  border: 0.854px solid #7eb101;
 }
 
 .subscribe-button {
   display: inline-flex;
+  width: 103px;
+  height: 42px;
   padding: 11px 22px;
+  color: #2c2c2c;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
   justify-content: center;
   align-items: center;
+  font-family: inherit;
+  margin: 0;
+  margin-left: 13px;
   border-radius: 30px;
   border: 0.854px solid #7eb101;
   background: #fff;
 }
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  border: 0.854px solid #ffe450;
+}
+
 .subscribe-consent {
+  margin-top: 12px;
   color: #2c2c2c;
-  font-family: Roboto;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
@@ -116,22 +132,20 @@
 .legals-nav {
   display: flex;
   justify-content: start;
+  align-items: flex-end;
 }
 
 .legals-list {
-  margin-top: 129px;
+  margin-top: auto;
   margin-left: 16px;
   display: flex;
   gap: 20px;
 }
 
 .legals-link {
-  padding: 0px 19px;
+  padding: 0px;
   color: #7eb101;
-  font-family: Roboto;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
   text-decoration-line: underline;
   text-decoration-style: solid;
@@ -140,15 +154,13 @@
   text-underline-offset: auto;
   text-underline-position: from-font;
 }
+
 .legals-text {
   margin-top: 80px;
   margin-left: auto;
   margin-right: 16px;
   display: inline-block;
   color: #2c2c2c;
-  font-family: Roboto;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
