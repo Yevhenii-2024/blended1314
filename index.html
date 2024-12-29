@@ -39,7 +39,7 @@
             <li><a href="" class="list-header-item">Contact</a></li>
           </ul>
         </nav>
-        <button type="button" class="button">Order Now</button>
+        <button type="button" class="button" data-modal-open>Order Now</button>
       </div>
     </header>
     <main>
@@ -244,5 +244,51 @@
           </div>
         </div>
    </footer>
+
+   <!-- modal -->
+
+   <div class="backdrop" data-modal>
+          <div class="modal">
+            <button type="button" class="modal-close" data-modal-close>
+              <svg class="modal-close-ikon" width="8" height="8">
+                <use href="./images/icon.svg#close"></use>
+              </svg>
+            </button>
+            <p class="modal-title">Order Form</p>
+            <form>
+              <div class="form-wrapper">
+                <label class="form-user-lable" for="user-name">Name</label>
+                <div class="form-user-icon-wrap">
+                  <input class="form-user-input" type="text" title="Denis" id="user-name" name="user-name" required
+                    pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+" placeholder="Your name">
+                 
+                </div>
+              </div>
+          
+              <div class="form-wrapper">
+                <label class="form-user-lable" for="form-phone">Phone</label>
+                <div class="form-user-icon-wrap">
+                  <input class="form-user-input" type="tel" title="Denis" id="form-phone" name="form-phone" required
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="">
+                  
+                </div>
+              </div>
+              <div class="form-wrapper">
+                <label class="form-user-lable" for="form-email">Email</label>
+                <div class="form-user-icon-wrap">
+                  <input class="form-user-input" type="email" title="Denis" id="form-email" name="form-email" required
+                    pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+" placeholder="example@gmail.com">
+                  
+                </div>
+              </div>
+              
+                
+              
+              <button class="form-btn" type="submit">Send</button>
+          
+            </form>
+          </div>
+        </div>
+        <script src="./js/modal.js"></script>
   </body>      
 </html>
