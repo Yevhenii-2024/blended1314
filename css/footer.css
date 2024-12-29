@@ -24,6 +24,12 @@
   flex-direction: row;
 }
 
+.footer-nav-link {
+  color: #2c2c2c;
+  font-size: 14px;
+  line-height: normal;
+}
+
 .footer-icon {
   margin-left: 21px;
   width: 66px;
